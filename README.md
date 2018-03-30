@@ -28,6 +28,21 @@ iptables -I INPUT -p tcp -m multiport --dport 80,443,53 -m set --match-set count
 iptables -I INPUT -m set --match-set country_br src -j REJECT
 ```
 
+## Lists supported
+
+- Countries (```ipset_lists country_br```)
+- AWS (```ipset_lists country_br```)
+
+On the way...
+
+- CDNs (Cloudfare, MaxCDN, CloudFront...)
+- Tor exit nodes
+- all_good (sum of the good guys: pingdom, cdn\`s...)
+- all_bad (sum of the evil incarnation on the earth)
+- bots
+- MaxMind GeoIP Anonymous Proxies
+- Firehol blocklist
+
 ## TODO
 
 - Add more sources
