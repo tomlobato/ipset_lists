@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-curl https://raw.githubusercontent.com/tomlobato/ipset_lists/master/ipset_lists.rb > ipset_lists
+curl https://raw.githubusercontent.com/tomlobato/ipset_lists/master/ipset_lists > ipset_lists
 chmod 755 ipset_lists
 mv ipset_lists /usr/local/sbin/ipset_lists
 ```
