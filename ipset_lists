@@ -101,7 +101,7 @@ class UpdateIpset
     end
 
     def tmpfile
-        file = Tempfile.new __FILE__
+        file = Tempfile.new
         yield file
         file.close
         file.unlink
