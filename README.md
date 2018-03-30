@@ -33,4 +33,4 @@ iptables -I INPUT -m set --match-set country_br src -j REJECT
 - Add more sources
 - Add whitelist sources
 - Turn into a gem
-- Instrumentation: analize iptables performance (w and w/o using these ipset`s)
+- Instrumentation: analize iptables performance (w and w/o ipset\`s)
