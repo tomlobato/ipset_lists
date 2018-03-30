@@ -46,6 +46,5 @@ On the way...
 ## TODO
 
 - Add more sources
-- Add whitelist sources
 - Turn into a gem
 - Instrumentation: analize iptables performance (w and w/o ipset\`s)
