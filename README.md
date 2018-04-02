@@ -31,7 +31,7 @@ iptables -I INPUT -m set --match-set country_br src -j REJECT
 ## Lists supported
 
 - Countries (```ipset_lists country_br```)
-- AWS (```ipset_lists country_br```)
+- AWS (```ipset_lists aws```)
 
 On the way...
 
